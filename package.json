@@ -1,0 +1,33 @@
+{
+  "name": "nodejs_authentication",
+  "version": "1.0.0",
+  "description": "This is the login form using mongoDb and nodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "styles": [
+    "https://bootswatch.com/5/journal/bootstrap.min.css",
+    "https://code.jquery.com/jquery-3.3.1.slim.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js",
+    "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+  ],
+  "author": "Monika",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-layouts": "^1.0.0",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.0.4",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
